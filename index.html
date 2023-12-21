@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Examples</title>
+    </head>
+    <!--a es para abrir el elemento de anclaje que utilizare
+    y href es la referencia de que se abrira-->
+    <Body>
+        <h1>Homepage</h1><br>
+        <!-- Se abrira en la misma pestaña -->
+        <a href="https://www.theodinproject.com/about">click me</a>
+        <br>
+        <!-- Se abrira en la otra pestaña -->
+        <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">click me</a>
+        <br>
+        <a href="about.html">About</a><br>
+        <!-- Este codigo funciona ya que el archivo esta dentro
+        del mismo directorio-->
+        <a href="pages/about.html">About</a>
+        <a href="./pages/about.html">About</a><br>
+        <!--el cambio en este codigo es cuando esta en otro
+        directorio para que pueda encontrar el archivo.
+        Esas dos maneras se utilizan ya que la primera podria
+        darte problemas porque no encuentre el directorio-->
+        <img src="https://www.theodinproject.com/mstile-310x310.png"><br>
+        <!--Este codigo sera para mostrar imagenes img significa
+        imagen y src es la fuente donde se encuentra la imagen-->
+        <img src="./images/dog.jpg" alt="dog" height="310" width="310">>
+        <!-- ./ significa retrecede un directorio 
+        y ../ retrocede al directorio principal. 
+        alt es un nombre alterno a la imagen por si no carga.
+        Height y width seria el alto y ancho que le daremos a la imagen-->
+    </Body>
+</html>
